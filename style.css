@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 1400px;
+  margin: 0 auto !important;
+}
+
+.grid_partners {
+  margin-top: -200px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: 210px 210px 210px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.el--1 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+
+  padding: 32px;
+}
+
+.el--2 {
+  margin-left: 58px;
+}
+
+.el--5 {
+  margin-left: 58px;
+}
+
+.el--8 {
+  margin-left: 58px;
+}
